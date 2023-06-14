@@ -1,6 +1,6 @@
 # Bagaimana cara berkontribusi?
 1. Buat branch baru untuk repository ini, lalu clone branch tersebut ke komputer lokal.
-2. Jalankan command berikut untuk menginstall dependency yang diperlukan:
+2. Jalankan command berikut pada terminal (pastikan *path*-nya tertuju pada *repository* lokal) untuk menginstall dependency yang diperlukan:
 ```console
 pip install -r requirements.txt
 ```
