@@ -23,5 +23,6 @@ jobs:
       - run: pip install mkdocs-simple-hooks
       - run: pip install mkdocs-git-committers-plugin-2
       - run: pip install lxml
-      - run: pip install pillow cairosvg
+      - run: pip install pillow 
+      - run: pip install cairosvg
       - run: mkdocs gh-deploy --force

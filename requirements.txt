@@ -1,0 +1,7 @@
+mkdocs-material
+mkdocs-git-authors-plugin
+mkdocs-simple-hooks
+mkdocs-git-committers-plugin-2
+lxml
+pillow 
+cairosvg
