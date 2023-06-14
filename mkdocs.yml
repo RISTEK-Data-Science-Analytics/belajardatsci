@@ -2,6 +2,7 @@ site_name: Belajar Data Science
 repo_url: https://github.com/RISTEK-Data-Science-Analytics/belajardatsci
 theme:
   name: material
+  custom_dir: docs/overrides
   language: en
   logo: assets/ristek-logo-light.png
   favicon: assets/ristek-logo-dark.png
@@ -52,19 +53,22 @@ markdown_extensions:
 
 plugins:
   - tags
+  - search
+  - git-authors
+  - git-committers:
+      repository: RISTEK-Data-Science-Analytics/belajardatsci
+      branch: main
+      docs_path: docs/
+  - mkdocs-simple-hooks:
+      hooks:
+        on_env: 'hooks:on_env'
 
 nav:
   - Home: 'index.md'
   - Fundamental:
     - Pengenalan: './fundamentals/introduction.md'
-    - Task: './fundamentals/task.md'
-    - Metrics: './fundamentals/metrics.md'
   - Tabular:
     - Pengenalan: './tabular/introduction.md'
-    - 'Pembersihan Data': './tabular/data-cleaning.md'
-    - 'Rekayasa Fitur': './tabular/feature-engineering.md'
-    - Crossvalidation: './tabular/crossvalidation.md'
-    - Pipeline: './tabular/pipeline.md'
 
 
 copyright:
